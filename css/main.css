@@ -1,0 +1,141 @@
+@font-face{
+    font-family: Samarkan;
+    src:url(../fonts/SAMAN___.TTF);
+  }
+  
+  /* css */
+  .nav_col
+  {
+     background-color: whitesmoke;
+  }
+  .nav-link
+  {
+    font-weight: 700;
+    font-size: 1.2em;
+     color: grey;
+  }
+  .navbar-brand
+  {
+    font-family: Samarkan;
+    font-size: 1.8em;
+     color: grey;
+  }
+  
+  .nav-link:hover
+  {
+     color: darkgray;
+  }
+  
+*
+{
+    box-sizing: border-box;
+}
+
+
+body
+{
+margin: 0;
+background-color: whitesmoke;
+}
+
+.sec1 img
+{
+padding-top:4rem;
+max-width: 100%; height: auto;
+}
+
+.sec1
+{
+    background-color: white;
+    border:10px solid white;
+}
+
+.sec1_text
+{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+
+.sec2
+{
+    background-color: white;
+    margin-top: 3rem;
+    padding-top:2rem;
+}
+
+.sec2_heading2
+{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    text-align: center
+}
+
+#recipeCarousel
+{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top:3rem;
+    padding-bottom: 3rem;
+}
+
+
+#carouselExampleIndicators
+{
+
+    margin-top:2rem;
+    text-align:center;
+}
+
+.mob_car
+{
+    width:100vw;
+    margin-top:2rem;
+}
+
+.sec2_button
+{
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.sec3
+{
+    margin-top: 3rem;
+    background: white;
+    padding-top:2rem;
+}
+
+.sec3_colelement
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sec3_colelement img
+{
+    max-width:50%; height: auto;
+}
+
+.sec3_weather
+{
+    padding: 15px;
+}
+
+.advert
+{
+    margin-top: 3rem;
+}
+
+.sw
+{
+    margin-right:8rem;
+}
+.stnav
+{
+margin-left:10vw;
+}
